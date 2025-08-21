@@ -8,10 +8,10 @@ Anyhow, the goal of this project is to create a simple ETL pipeline in my raspbe
 
 I will be using simple python pandas, yfinance, and some SQL libraries. I also hope to be learning more about postgres in this thing. 
 
-1. Select and calibrate what I want from yfinance <------------------- Currently Here.
+1. Select and calibrate what I want from yfinance 
 2. Transforming and getting exactly what I want into a writable project. 
 3. Setup a postgres locally. 
-4. Load the data into the postgres through a routine executable cron thing. 
+4. Load the data into the postgres through a routine executable cron thing. <------------------- Currently Here.
 5. Create a RShiny to read the data and use that thing, transform into a cute dashboard which lives in my RStudio test thing. 
 
 So yeah, hopefully will learn something in the process. 
