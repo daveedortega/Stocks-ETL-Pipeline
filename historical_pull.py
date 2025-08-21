@@ -74,7 +74,7 @@ major_mexican = {
 ## Declare df:
 stock_df = pd.DataFrame()
 
-## Loop to get required values
+## BIG TECH
 for symbol in big_tech.keys():
     print(f"Fetching {symbol}...")
     ticker = yf.Ticker(symbol)
@@ -95,7 +95,7 @@ for symbol in big_tech.keys():
     stock_df = pd.concat([stock_df, tmp_df], ignore_index=True)
 print('Done')
 
-## Loop to get required values
+## INDICES
 for symbol in indexes.keys():
     print(f"Fetching {symbol}...")
     ticker = yf.Ticker(symbol)
@@ -116,7 +116,7 @@ for symbol in indexes.keys():
     stock_df = pd.concat([stock_df, tmp_df], ignore_index=True)
 print('Done')
 
-## Loop to get required values
+## BANKING
 for symbol in major_banks.keys():
     print(f"Fetching {symbol}...")
     ticker = yf.Ticker(symbol)
@@ -138,7 +138,7 @@ for symbol in major_banks.keys():
 print('Done')
 
 
-## Loop to get required values
+## FINTECH
 for symbol in fintech_stocks.keys():
     print(f"Fetching {symbol}...")
     ticker = yf.Ticker(symbol)
@@ -160,7 +160,7 @@ for symbol in fintech_stocks.keys():
 print('Done')
 
 
-## Loop to get required values
+## MEXICAN STOCKS
 for symbol in major_mexican.keys():
     print(f"Fetching {symbol}...")
     ticker = yf.Ticker(symbol)
